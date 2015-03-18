@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26000000"
+    android:orientation="vertical"
+    tools:context=".Activity2EntrainementDuJour" >
+
+    <ImageView
+        android:id="@+id/activityEntrainementAvecCoatch_ImageAccompagnement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/image_entrainement_jour" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/activityEntrainementDuJour_CommentaireHaut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Un entrainement type pour chaque niveau !"
+        android:textAppearance="@style/SimpleText" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" >
+    </View>
+
+    <Button
+        android:id="@+id/activityEntrainementDuJour_ButtonDebutant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Débutant" />
+
+    <Button
+        android:id="@+id/activityEntrainementDuJour_ButtonRegulier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Sportif régulier" />
+
+    <Button
+        android:id="@+id/activityEntrainementDuJour_ButtonConfirme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Sportif confirmé" />
+
+    <Button
+        android:id="@+id/activityEntrainementDuJour_ButtonUltra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Ultra sport" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/activityEntrainementDuJour_CommentaireBas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="L&apos;entrainement est plus fun en groupe, n&apos;hésitez pas à faire appel à votre coatch !"
+        android:textAppearance="@style/SimpleText" />
+
+</LinearLayout>

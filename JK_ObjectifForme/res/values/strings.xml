@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JK Objectif Forme</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity1_commentdebuter">Debuter avec votre coatch!</string>
+    <string name="title_activity_activity2_entrainement_du_jour">Entrainement du jour</string>
+    <string name="title_activity_activity3_sceance_avec_julien">Scéance avec votre coatch</string>
+    <string name="title_activity_activity4_reductions">Gagne des réductions</string>
+    <string name="activite2_titreDebutant"><![CDATA[<font color="#99cc33"><b>Sportif débutant :</b></font>]]></string>
+    <string name="activite2_titreRegulier"><![CDATA[<font color="#99cc33"><b>Sportif régulier :</b></font>]]></string>
+    <string name="activite2_titreConfirme"><![CDATA[<font color="#99cc33"><b>Sportif confirmé :</b></font>]]></string>
+    <string name="activite2_titreUltra"><![CDATA[<font color="#99cc33"><b>Sportif ultra :</b></font>]]></string>
+    <string name="activite1_titrePrestationBienEtre"><![CDATA[<font color="#99cc33"><b>Prestation "Bien-être"</b></font>]]></string>
+    <string name="activite1_titrePrestationPerformance"><![CDATA[<font color="#99cc33"><b>Prestation "Performance</b></font>]]></string>
+    <string name="activite1_titrePrestationEntreprise"><![CDATA[<font color="#99cc33"><b>Coatch en entreprise</b></font>]]></string>
+    <string name="activite1_detailPrestationBienEtre">
+<![CDATA[
+Vous avez du mal à organiser votre activité physique ?<br/>
+Je me déplace à votre domicile avec le matériel nécessaire pour une séance de sport à la maison ou en extérieur.<br/>
+ Je mettrai à votre disposition mes conseils pour vous permettre d’atteindre vos objectifs avec l’esprit tranquille.<br/>]]>
+    </string>
+    <string name="activite1_detailPrestationPerformance">
+<![CDATA[
+       Je mets mes compétences à votre service dans plusieurs domaines :<br/>
+   • Préparation physique<br/>
+   • Plannification<br/>
+   • Musculation spécifique à votre discipline<br/>
+   • Entrainement Cardio-Training<br/>
+   • Réathlétisation (post blessure)<br/>
+   • Préparation à une compétition ou un concours<br/>
+      ]]>
+    </string>
+    <string name="activite1_detailPrestationEntreprise">
+<![CDATA[Je mets également mes services à disposition des entreprises<br/>
+qui souhaiteraient proposer à leurs salariés un temps consacré à une activité physique<br/>
+au sein même de la structure<br/> ]]>
+    </string>
+
+</resources>

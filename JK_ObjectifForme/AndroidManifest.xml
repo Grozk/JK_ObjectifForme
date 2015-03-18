@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gro.perso.jk_objectifforme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoswimming"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="gro.perso.jk_objectifforme.Launcher_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gro.perso.jk_objectifforme.Activity1Commentdebuter"
+            android:label="@string/title_activity_activity1_commentdebuter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="gro.perso.jk_objectifforme.Activity2EntrainementDuJour"
+            android:label="@string/title_activity_activity2_entrainement_du_jour"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="gro.perso.jk_objectifforme.Activity3SceanceAvecJulien"
+            android:label="@string/title_activity_activity3_sceance_avec_julien"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="gro.perso.jk_objectifforme.Activity4Reductions"
+            android:label="@string/title_activity_activity4_reductions"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

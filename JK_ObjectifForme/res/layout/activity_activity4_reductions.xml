@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#26000000"
+    tools:context=".Activity4Reductions" >
+
+    <TextView
+        android:id="@+id/activityReduction_textView_CommentaireHaut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="En flashant ce code, tes amis te font gagner des réductions pour un cours avec Julien!"
+        android:textAppearance="@style/SimpleText" >
+    </TextView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" >
+    </View>
+
+    <ImageView
+        android:id="@+id/activityReduction_imageview_qrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/chart" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/activityReduction_textView_montantReduc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             android:textAppearance="@style/SimpleText"
+            android:text="Montant de réduction gagné :" />
+
+        <TextView
+            android:id="@+id/activityReduction_textView_ValeurReduc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12% (30% maxi)."
+            android:textAppearance="@style/SimpleText" />
+    </LinearLayout>
+    
+    
+        <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" >
+    </View>
+        <ImageView
+        android:id="@+id/activityReduction_ImageViewimageview_crossfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/crossfit" />
+    
+
+</LinearLayout>

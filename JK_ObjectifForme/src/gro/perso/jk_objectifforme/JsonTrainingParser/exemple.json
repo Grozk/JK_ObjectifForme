@@ -1,0 +1,9 @@
+{ "entrainement":"debutant", 
+"items":[
+{"type":"echauffement", "intitule":"pompe", "nombre":"10","unite":"repetition","enchainementnum":"1"},			   
+{"type":"echauffement","intitule":"pompe", "nombre":"10","unite":"repetition","enchainementnum":"1"},
+{"type":"serie", "intitule":"pompe", "nombre":"10","unite":"repetition","enchainementnum":"2"},			   
+{"type":"serie","intitule":"pompe", "nombre":"10","unite":"repetition","enchainementnum":"2"},
+{"type":"recuperation", "intitule":"pompe", "nombre":"10","unite":"repetition","enchainementnum":"3"},			   
+{"type":"recuperation","intitule":"pompe", "nombre":"10","unite":"repetition","enchainementnum":"3"}
+]}

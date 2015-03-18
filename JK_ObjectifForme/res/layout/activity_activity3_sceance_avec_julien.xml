@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26000000"
+    android:orientation="vertical"
+    tools:context=".Activity3SceanceAvecJulien" >
+
+    <TextView
+        android:id="@+id/activityEntrainementAvecCoatch_CommentaireHaut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tarifs"
+        android:textAppearance="@style/TitleText" >
+    </TextView>
+
+    <TableRow
+        android:id="@+id/activityEntrainementAvecCoatch_TableRowInit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/activityEntrainementAvecCoatch_TableTab1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/tarifsolo" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/activityEntrainementAvecCoatch_TableTab2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/tarifduo" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/activityEntrainementAvecCoatch_TableTab3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/tariftrio" >
+                    </ImageView>
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/activityEntrainementAvecCoatch_textViewCommentaires"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pensez aux réductions d&apos;impôts de 50%!"
+        android:textAppearance="@style/SimpleText" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" >
+    </View>
+
+    <Button
+        android:id="@+id/activityEntrainementAvecCoatch_ButtonCallCoatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Je réserve par téléphone!" />
+
+    <ImageView
+        android:id="@+id/activityEntrainementAvecCoatch_ImageCoatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/photojulien" />
+
+</LinearLayout>

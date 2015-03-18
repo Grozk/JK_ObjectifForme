@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26000000"
+    android:orientation="vertical"
+    tools:context=".Activity1Commentdebuter" >
+
+    <TextView
+        android:id="@+id/activityCommentDebuter_textViewTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_text_title"
+        android:gravity="center"
+        android:text="Prestations"
+        android:textAppearance="@style/TitleText" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" >
+    </View>
+
+    <ImageView
+        android:id="@+id/activityEntrainementAvecCoatch_ImageAccompagnement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/image_debutercoatch" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/activityCommentDebuter_textViewPresentation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Le premier RDV est gratuit et permet de faire connaissance et d&apos;établir un programme
+        individualisé et adapté à vos envies."
+        android:textAppearance="@style/SimpleText" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/activityCommentDebuter_textViewTypeDePrestations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_text_title"
+        android:gravity="center"
+        android:text="Types de prestations"
+        android:textAppearance="@style/TitleText" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="25dp" >
+    </View>
+
+    <ListView
+        android:id="@+id/activityCommentDebuter_listViewPrestations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TableRow
+        android:id="@+id/layoutTarifDuo_tableRowTitre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_textViewFormule"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Formules" />
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_textViewSolo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="solo" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/layoutTarifDuo_tableRowLigne1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne1_libelle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Scéance d&apos;essai" />
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne1_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="gratuite" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/layoutTarifDuo_tableRowLigne2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne2_libelle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1 scéance" />
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne2_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="55 € / 27.50 €" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/layoutTarifDuo_tableRowLigne3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne3_libelle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5 scéances" />
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne3_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="50 €/scéance / 25 €" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/layoutTarifDuo_tableRowLigne4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne4_libelle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="10 scéances" />
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne4_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="45 €/scéance / 22.50 €" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/layoutTarifDuo_tableRowLigne5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne5_libelle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="20 scéances" />
+
+        <TextView
+            android:id="@+id/layoutTarifDuo_tableRowLigne5_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="40 €/scéance / 20 €" />
+    </TableRow>
+
+
+</TableLayout>
